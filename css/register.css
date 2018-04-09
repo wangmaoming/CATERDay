@@ -1,0 +1,94 @@
+@charset "utf-8";
+.wrap{
+    width:600px;
+    height:400px;
+
+    /*水平居中*/
+    margin:200px auto;
+}
+h1{
+    width:100%;
+    height:100px;
+
+    /*去除默认间距*/
+    margin: 0;
+    padding: 0;
+    /*垂直水平居中*/
+    text-align: center;
+    line-height: 100px;
+    letter-spacing:5px;
+    /*阴影*/
+    text-shadow:5px 3px 5px gray;
+    /*下边框*/
+    border-bottom: 2px solid black;
+    /*设置盒子模型/盒子不会被撑大容器*/
+    box-sizing: border-box;
+
+}
+form{
+    width: 100%;
+    height: 300px;
+
+    /*超出不显示*/
+    overflow: hidden;
+    box-sizing: border-box;
+    /*设置内间距*/
+    padding-top:50px;
+    /*相对定位：相对于自身定位*/
+    /*如果不加方向，保持不变*/
+    position: relative;
+}
+p{
+
+    text-align: center;
+
+}
+input,button{
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+    border: none;
+    /*设置圆角*/
+    border-radius: 5px;
+}
+input{
+    width:250px;
+    height:35px;
+    border: 1px solid #d3d3d3;
+    box-sizing: border-box;
+    padding-left: 10px;
+
+}
+/*选择未访问、已访问、悬浮和活动链接，并设置它们的样式：*/
+/*a:link    {color:blue;}*/
+/*a:visited {color:blue;}*/
+/*a:hover   {color:red;}*/
+/*a:active  {color:yellow;}*/
+/*：focus获取焦点*/
+/*：hover鼠标悬浮*/
+input:focus{
+    border: none;
+    /*box-shadow:水平 垂直 模糊 扩展 颜色 内外阴影*/
+    box-shadow:0 0 10px 1px purple inset ;
+}
+button{
+    width:250px;
+    height:45px;
+    /*绝对定位：相对于离它最近的祖先级元素中拥有position属性来定位*/
+    position: absolute;
+    top:200px;
+    left:195px;
+    /*修改鼠标为手*/
+    cursor: pointer;
+    background-color:burlywood;
+    color: white;
+}
+button:active{
+    background-color: purple;
+}
+a {
+    font-size: 12px;
+    position: absolute;
+    top: 170px;
+    left: 197px;
+}

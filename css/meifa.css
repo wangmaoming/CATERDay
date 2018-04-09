@@ -1,0 +1,293 @@
+@charset "utf-8";
+/* CSS Document */
+head{ display:none;}
+body{
+	height:auto;
+	margin-right:5%;
+	margin-left:5%;
+	text-align:center;
+	}
+*{
+	 text-decoration:none;
+ padding:0px;
+ margin:0px;
+	}
+#content{
+	width:1300px;
+	}
+#top{
+	width:1300px;
+ height:50px;
+ background-color:#444;
+	}
+#top li:hover{ background-color: #CFC}
+#top>img{
+	}
+#one>ul{
+	width:250px;
+	float:right;
+	margin-right:50px;
+	}
+#one>ul>li{
+	height:45px;
+font-size:20px;
+font-weight:500px;
+display:inline-block;
+float:right;
+margin-top:8px;
+padding-left:15px;
+ }
+#one>ul>li>a{
+	 color:#CCC;
+	 list-style-type:none;
+	 text-decoration:none;
+	 }
+
+
+#RightStrip{
+	width:45px;
+	height:700px;
+	position:fixed;
+	top:0px;
+	right:0px;
+	background-color:#333;
+	z-index:9;
+	}
+#totop{
+	width::45px;
+	height:70px;
+	position:fixed;
+	top:500px;
+	right:0px;
+	}
+#APP{
+	width::45px;
+	height:37px;
+	position:fixed;
+	top:60px;
+	right:0px;
+	}
+#call{
+	width::45px;
+	height:60px;
+	position:fixed;
+	top:130px;
+	right:0px;
+	}
+#RightStrip p:hover{ background-color: #CFC}
+#feedback{
+	width:45px;
+	height:26px;
+	position:fixed;
+	top:300px;
+	right:0px;
+	}
+
+#RightStrip p{
+	font-size:20px;
+	
+	}
+
+#RightStrip a{
+	text-decoration:none;
+	
+	color:#CCC;
+	}
+#nav{
+	width:1300px;
+	height:50px;
+	position:absolute;
+	top:50px;
+	left:5%;
+	right:45px;
+	background-color:#323232;}
+#nav>img{
+	float:left;
+
+	margin-left:0px;}
+#nav1{
+	margin-left:100px;
+	}
+#nav1>ul{
+		
+	width:1000px;
+	float:left;
+	}
+#nav li{
+	width:120px;
+	height:45px;
+	float:left;
+	list-style:none;
+	margin:5px 0px 0px 0px;
+	padding-left:40px;
+	cursor: pointer;}
+#nav li:hover{ background-color: #CC6}
+#nav li a{
+	text-decoration:none;
+	color:#fff;
+	font-size:24px;
+	}
+#bodytop1{
+	margin-top:50px;
+	height:200px;
+	}
+#body1{height:200px;
+	}
+.bodytop{
+	  height:25px;   
+  line-height:25px; 
+	color:#333;
+	font-size:60px;
+	text-align:center;
+	padding-top:45px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	}
+.bodyfo{
+	  height:25px;   
+  line-height:25px; 
+	color:#333;
+	font-size:35px;
+	text-align:center;
+	margin-top:45px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	}
+#bodybo{
+	width:1300px;
+	height:1100px;
+	background-color:#666;
+	}
+#bodybo li{
+	display:inline-block;
+	}
+.bodyboli{
+	width:1300px;
+	height:250px;
+	margin-top:10px;}
+.bodybolileft{
+	width:850px;
+	height:230px;
+	float:left;}
+.bodybolileft img{
+	margin-top:40px;
+	margin-left:50px;}
+.bodyboleft1{
+	width:460px;
+	height:230px;
+	float:right;
+	margin-right:20px;
+	margin-top:20px;}
+.bodyboleft1 h1{
+	color:#F69;
+	text-align:left;}
+.left1p{
+	color:#999;
+	padding-left:0px;}
+.bodyboleft1 p{
+	text-align:left;
+	margin-top:15px;}
+.bodyboliright{
+	width:450px;
+	height:240px;
+	float:right;}
+.right1{
+	width:400px;
+	height:240px;
+	background-color:#03F;}
+/*底部*/
+
+#footertop{
+		width:1300px;
+	height:60px;
+	background-color:#666;}
+footer{
+	width:1300px;
+	height:250px;
+	background-color:#191919;
+	}
+#footerleft{
+	color:#FFF;
+	width:49.9%;
+	height:250px;
+	float:left;
+	border-right:2px #CCCCCC solid;
+
+
+}
+
+.fleft1{
+	width:35%;
+	height:200px;
+	margin-left:15%;
+	padding-top:35px;
+	float:left;
+	display:block;
+	}
+.fleft1 dt a{
+	text-decoration:none;
+	color:#fff;
+	font-size:20px;
+	
+	}
+.fleft1 dt{
+	
+	margin-top:15px;
+	}
+.fleft1 dt:hover{ background-color: #CC6}
+.fleft2{
+	display:inline;
+	width:35%;
+	height:200px;
+	float:right;
+	margin-right:15%;
+	padding-top:35px;
+	display:block;
+}
+.fleft2 dt a{
+	text-decoration:none;
+	color:#fff;
+	font-size:20px;
+	
+	}
+.fleft2 dt{
+	
+	margin-top:15px;
+	}
+.fleft2 dt:hover{ background-color: #CC6}
+
+#footerright{
+	color:#FFF;
+	width:49%;
+	height:250px;
+	margin-right:0px;
+	float:right;
+}
+.fright1{
+	width:45%;
+	height:200px;
+	margin-left:5%;
+	padding-top:35px;
+	float:left;
+	display:block;}
+.fright1 dt a{
+	text-decoration:none;
+	color:#fff;
+	font-size:16px;
+	text-align:left;
+	}
+.fright1 dt{
+	padding-top:20px;
+	}
+.fright2{
+	
+	display:inline;
+	width:300px;
+	height:200px;
+	float:right;
+	margin-right:15px;
+	padding-top:35px;
+	display:block;
+}
+.fright2>p{
+	color:#FFF;
+	font-size:20px;
+	text-align:center}
